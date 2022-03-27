@@ -19,19 +19,18 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" /-->
 
-    <TextView
+    <EditText
         android:id="@+id/tv_date"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="147dp"
-        android:layout_marginBottom="536dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginBottom="557dp"
+        android:hint="Enter Date of Birth"
+        android:textColorHint="#757575"
         android:minHeight="48dp"
-        android:text="Enter Date of Birth"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
 
     <EditText
         android:id="@+id/name_surname"
@@ -119,7 +118,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="160dp"
