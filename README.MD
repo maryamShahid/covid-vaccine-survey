@@ -26,6 +26,6 @@ This project is implemented for testing purposes.
 - Run test\src\main\java\test.java file (test folder is in the root folder)
 - Tests should be running.
 
-###Notes
+### Notes
 1. Before you run the tests, your android emulator should be running, and the application must be installed (to install the application, follow the steps above).
 2. If your emulator name is changed (from emolator-5554), you need to change line 15 in test\src\main\java\test.java file.
