@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                 month = month + 1;
-                String date = day + "/" + month + "/" + year;
+                String date = dayOfMonth + "/" + month + "/" + year;
                 dateOfBirth.setText(date);
             }
         };
