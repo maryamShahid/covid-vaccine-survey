@@ -11,14 +11,13 @@ public class test {
 
     private static final String APP_PACKAGE = "com.example.covid19vaccinesurvey";
     private static final String APP_ACTIVITY = ".MainActivity";
-    private static final String  APPIUM_PORT = "4723";      // this may vary in your PC
-
-
+    private static final String APPIUM_PORT = "4723";                   // this may vary in your PC
+    private static final String EMULATOR_NAME = "emulator-5554";        // this may vary in your PC
 
     public static void main(String[] args) throws MalformedURLException {
         DesiredCapabilities dc = new DesiredCapabilities();
 
-        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554"); // emulator-5554 may vary in your PC
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME, EMULATOR_NAME);
         dc.setCapability("platformName", "android");
         dc.setCapability("appPackage", APP_PACKAGE);
         dc.setCapability("appActivity", APP_ACTIVITY);
