@@ -23,6 +23,8 @@ This project is implemented for testing purposes.
   - Fill JAVA_HOME with the address of your Java JDK (something like: C:\Program Files\Java\jdk1.8.0_271)
   - Click 'Save and Restart'
   - Click 'Start Server'
+
+- Perform Maven Clean&Install on test project (the project under the test folder at the root)
 - Run test\src\main\java\test.java file (test folder is in the root folder)
 - Tests should be running.
 
